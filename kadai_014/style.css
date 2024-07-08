@@ -1,7 +1,30 @@
-.text-skyblue {
-    color: skyblue;
+body {
+    /* テキスト中央寄せ */
+    text-align: center;
+    /* フォント種類を"Arial", "Meiryo", sans-serifに */
+    font-family: "Arial", "Meiryo", sans-serif;
+    font-size: 20px;
 }
-.text-pink{
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 1.2em;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 5px 5px burlywood;
+    text-decoration: underline rgb(115, 115, 114);
+}
+
+.pink {
     color: rgb(255, 192, 203);
 }
 
+.skyblue{
+    color: skyblue;
+}
+
+#parent div{
+    font-weight: bold;
+}
