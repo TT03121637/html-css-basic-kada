@@ -1,3 +1,7 @@
+html {
+    font-size: 20px;
+}
+
 body {
     /* テキスト中央寄せ */
     text-align: center;
@@ -7,14 +11,14 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2em;
     letter-spacing: 1.2em;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     text-shadow: 5px 5px 5px burlywood;
-    text-decoration: underline rgb(115, 115, 114);
+    border-bottom: 3px solid rgb(115,115,114);
 }
 
 .pink {
